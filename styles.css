@@ -1,4 +1,7 @@
 /*Document settings*/
+.container {
+    padding: 10px;
+}
 
 /*Intro*/
 
@@ -6,9 +9,13 @@
 
 /*Trailer*/
 
-/*Services*/
-
 /*Gallery*/
+
+#gallery img {
+    border-radius: 5px;
+}
+
+/*Destinations*/
 
 /*Team*/
 
