@@ -52,6 +52,9 @@
                 </div>
             </div>
         </nav>
+        <div class="hide" id="placeholderNav">
+            <!--placeholder for nav, when it is set to fixed-->
+        </div>
     </section>
     <!--Trailer-->
     <section id="trailer">
@@ -62,7 +65,7 @@
         </div>
         <div class="level">
             <div class="level-item">
-                <p class="subtitle ">video text</p>
+                <p class="subtitle">video text</p>
             </div>
             <div class="level-item">
                 <button class="button is-primary is-outlined is-medium">Watch Trailer</button>
@@ -72,7 +75,7 @@
             <div class="columns">
                 <div class="column">
                     <div class="box">
-                        <div class="has-text-weight-bold">
+                        <div class="is-size-5 has-text-weight-bold">
                             box title
                         </div>
                         <p>
@@ -82,7 +85,7 @@
                 </div>
                 <div class="column">
                     <div class="box">
-                        <div class="has-text-weight-bold">
+                        <div class="is-size-5 has-text-weight-bold">
                             box title
                         </div>
                         <p>
@@ -92,7 +95,7 @@
                 </div>
                 <div class="column">
                     <div class="box">
-                        <div class="has-text-weight-bold">
+                        <div class="is-size-5 has-text-weight-bold">
                             box title
                         </div>
                         <p>
@@ -112,7 +115,7 @@
                     <h2 class="title is-2">Postcards</h2>
                 </div>
                 <div class="level-item">
-                    <p class="subtitle ">
+                    <p class="subtitle">
                         postcards text
                     </p>
                 </div>
@@ -151,93 +154,130 @@
                 </div>
             </div>
     </section>
+    <!--Team-->
+    <div id="team"></div>
     <!--Destinations-->
-    <section id=" destinations " class="container">
-        <div class="level ">
-            <div class="level-item ">
-                <h2 class="title is-2 ">Our Destinations</h2>
+    <section id="destinations" class="container">
+        <div class="level">
+            <div class="level-item">
+                <h2 class="title is-2">Our Destinations</h2>
             </div>
         </div>
-        <div class="columns ">
-            <div class="column ">
-                <div class="box ">
-                    <div class="has-text-weight-bold ">
-                        <span class="icon "><i class="fas fa-home "></i></span> destination title
-                    </div>
-                    <p>
-                        destination text
-                    </p>
-                    <a class="link ">link</a>
-                </div>
-            </div>
-            <div class="column">
-                <div class="box ">
-                    <div class="has-text-weight-bold ">
-                        <span class="icon "><i class="fas fa-home "></i></span> destination title
-                    </div>
-                    <p>
-                        destination text
-                    </p>
-                    <a class="link ">link</a>
-                </div>
-            </div>
-            <div class="column ">
-                <div class="box ">
-                    <div class="has-text-weight-bold ">
-                        <span class="icon "><i class="fas fa-home "></i></span> destination title
-                    </div>
-                    <p>
-                        destination text
-                    </p>
-                    <a class="link ">link</a>
-                </div>
-            </div>
+        <div class="tabs is-centered">
+            <ul>
+                <li id="tab-all" class="is-active">
+                    <a>All Trips</a>
+                </li>
+                <li id="tab-cat-1">
+                    <a>Children</a>
+                </li>
+                <li id="tab-cat-2">
+                    <a>Adventure</a>
+                </li>
+                <li id="tab-cat-3">
+                    <a>Culture</a>
+                </li>
+            </ul>
         </div>
-        <div class="columns is-tablet ">
-            <div class="column ">
-                <div class="box ">
-                    <div class="has-text-weight-bold ">
-                        <span class="icon "><i class="fas fa-home "></i></span> destination title
+        <div class="columns is-multiline">
+            <div class="trip-cat-1 column is-one-third">
+                <div class="box">
+                    <div class="is-size-5 has-text-weight-bold">
+                        <span class="icon"><i class="fab fa-lg fa-fort-awesome"></i></span> Disneyland
                     </div>
                     <p>
-                        destination text
+                        Enjoy an unforgettable weekend in Disneyland. Suitable for small and big chilren of all ages.
                     </p>
-                    <a class="link ">link</a>
+                    <a class="link has-text-primary">Learn more</a>
                 </div>
             </div>
-            <div class="column ">
-                <div class="box ">
-                    <div class="has-text-weight-bold ">
-                        <span class="icon "><i class="fas fa-home "></i></span> destination title
+            <div class="trip-cat-2 column is-one-third">
+                <div class="box">
+                    <div class="is-size-5 has-text-weight-bold">
+                        <span class="icon"><i class="fas fa-lg fa-snowflake"></i></span> Antarctica
                     </div>
                     <p>
-                        destination text
+                        An unforgettable journey. Every year, Blue Jay takes ten couples looking for adventure to the South Pole. You will learn how to fish like the Eskimos. The trip fee includes a special health insurance that covers death by freezing.
                     </p>
-                    <a class="link ">link</a>
+                    <a class="link has-text-primary">Learn more</a>
                 </div>
             </div>
-            <div class="column ">
-                <div class="box ">
-                    <div class="has-text-weight-bold ">
-                        <span class="icon "><i class="fas fa-home "></i></span> destination title
+            <div class="trip-cat-3 column is-one-third">
+                <div class="box">
+                    <div class="is-size-5 has-text-weight-bold">
+                        <span class="icon"><i class="fas fa-lg fa-wine-glass"></i></span> Paris in 24 Hours
                     </div>
                     <p>
-                        destination text
+                        A cup of coffe and a croissant in a small café, walking slowly on Champs Elysees, and a romantic dinner in the evening. Blue Jay Travel makes sure you won't miss any attraction in Paris.
                     </p>
-                    <a class="link ">link</a>
+                    <a class="link has-text-primary">Learn more</a>
+                </div>
+            </div>
+            <div class="trip-cat-1 column is-one-third">
+                <div class="box">
+                    <div class="is-size-5 has-text-weight-bold">
+                        <span class="icon"><i class="fas fa-lg fa-umbrella-beach"></i></span> Antalya
+                    </div>
+                    <p>
+                        The dream summer for a big family. In our five star seaside resort, you will find everything you need. Good food, freetime activities and more... Childcare stations serve our guests everyday. Book your flight now!
+                    </p>
+                    <a class="link has-text-primary">Learn more</a>
+                </div>
+            </div>
+            <div class="trip-cat-3 column is-one-third">
+                <div class="box">
+                    <div class="is-size-5 has-text-weight-bold">
+                        <span class="icon"><i class="fas fa-lg fa-monument"></i></span> Prague
+                    </div>
+                    <p>
+                        The city of bridges...and towers. If you want to see how culture meets modern life, come to Prague! The four different districts display the history of Prague, one of the oldest cities in Europe. Our tour includes a short trip to Kutna Hora, where you
+                        will be amazed by the bone church.
+                    </p>
+                    <a class="link has-text-primary">Learn more</a>
+                </div>
+            </div>
+            <div class="trip-cat-3 column is-one-third">
+                <div class="box">
+                    <div class="is-size-5 has-text-weight-bold">
+                        <span class="icon"><i class="fas fa-lg fa-chart-pie"></i></span> Rome
+                    </div>
+                    <p>
+                        Visit Rome and discover the heart of Italian culture. Our expert guides who are fluent in Italian and English will guide you through the crowded streets. Enjoy some fresh pizza in the evening. You never lose a single minute with Blue Jay. This is our
+                        best-selling trip.
+                    </p>
+                    <a class="link has-text-primary">Learn more</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--Team-->
-    <div id="team "></div>
-    <!--Destinations-->
-    <div id="destinations "></div>
-    <!--Blog-->
-    <div id="blog "></div>
     <!--Contact-->
-    <div id="contact "></div>
+    <section id="contact">
+        <div class="container">
+            <h2 class="title is-3 has-text-white">Contact Us</h2>
+            <div class="columns is-mobile">
+                <div class="column">
+                    <p class="has-text-white is-size-4">Write</p>
+                    <p>fly@bluejay.com</p>
+                    <p>Jay Str. 34521, JA</p>
+                </div>
+                <div class="column">
+                    <p class="has-text-white is-size-4">
+                        Share
+                    </p>
+                    <p>
+                        <span class="icon"><i class="fab fa-lg fa-instagram"></i></span> @bluejaytravel
+                    </p>
+                    <p>
+                        <span class="icon"><i class="fab fa-lg fa-twitter"></i></span> @bluejaytravel
+                    </p>
+                    <p>
+                        <span class="icon"><i class="fab fa-lg fa-facebook"></i></span> Blue Jay Travel
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

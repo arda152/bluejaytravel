@@ -3,10 +3,22 @@
     padding: 10px;
 }
 
+/* used to dynamically hide elements*/
+.hide {
+    display: none;
+}
+
+.icon {
+    position: relative;
+    top: 3px;
+}
+
 /*Intro*/
 
 /*Navbar*/
-
+#placeholderNav {
+    height: 52px;
+}
 /*Trailer*/
 
 /*Gallery*/
@@ -24,3 +36,6 @@
 /*Blog*/
 
 /*Contact*/
+#contact {
+    background-color: #00d1b2
+}
