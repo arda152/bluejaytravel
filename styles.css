@@ -1,9 +1,11 @@
 /*Document settings*/
+
 .container {
     padding: 10px;
 }
 
 /* used to dynamically hide elements*/
+
 .hide {
     display: none;
 }
@@ -13,16 +15,38 @@
     top: 3px;
 }
 
-/*Intro*/
+/* used to align page correctly, so section titles are not
+hidden behind navbar */
 
+.offset-anchor {
+    display: block;
+    position: relative;
+    top: -52px;
+}
+
+/*Intro*/
+#intro .icon {
+    position: relative;
+    left: 30px;
+}
 /*Navbar*/
+.navbar-menu a {
+    color: black;
+}
+.navbar-menu a:hover {
+    color: #00d1b2;
+}
 #placeholderNav {
     height: 52px;
 }
+
 /*Trailer*/
 
 /*Gallery*/
-
+#gallery .box {
+    box-shadow: none;
+    padding: 0;
+}
 #gallery img {
     border-radius: 5px;
 }
@@ -36,6 +60,11 @@
 /*Blog*/
 
 /*Contact*/
+
 #contact {
     background-color: #00d1b2
+}
+
+#contact .container {
+    padding-left: 20px;
 }

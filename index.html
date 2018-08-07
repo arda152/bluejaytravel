@@ -19,7 +19,8 @@
     <section id="intro" class="hero is-fullheight is-primary">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title is-1">Blue Jay Travel</h1>
+                <h1 class="title is-1">Blue Jay Travel<span class="icon"><i class="fas fa-crow"></i></span>
+</h1>
                 <p class="subtitle is-3">explore the universe</p>
                 <button class="button is-inverted is-primary is-outlined is-medium">Discover offers</button>
             </div>
@@ -30,9 +31,9 @@
         <nav class="navbar is-light">
             <div class="navbar-brand">
                 <a class="navbar-item" href="#">
-                    ICON
+                    <span class="icon is-medium has-text-primary"><i class="fas fa-lg fa-crow"></i></span>
                 </a>
-                <a class="navbar-burger" data-target="nav-menu">
+                <a class="has-text-primary navbar-burger" data-target="nav-menu">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -41,13 +42,13 @@
             <div class="navbar-menu" id="nav-menu">
                 <div class="navbar-end">
                     <div class="navbar-item">
-                        <a>Click</a>
+                        <a href="#gallery-anchor">Gallery</a>
                     </div>
                     <div class="navbar-item">
-                        <a>Click</a>
+                        <a href="#destinations-anchor">Trip Finder</a>
                     </div>
                     <div class="navbar-item">
-                        <a>Click</a>
+                        <a href="#contact-anchor">Contact</a>
                     </div>
                 </div>
             </div>
@@ -60,15 +61,17 @@
     <section id="trailer">
         <div class="level">
             <div class="level-item">
-                <h2 class="title is-2">Trailer Title</h2>
+                <h2 class="title is-2">Join Us</h2>
             </div>
         </div>
         <div class="level">
             <div class="level-item">
-                <p class="subtitle">video text</p>
+                <p class="subtitle is-4">...and change your life</p>
             </div>
+        </div>
+        <div class="level">
             <div class="level-item">
-                <button class="button is-primary is-outlined is-medium">Watch Trailer</button>
+                <button class="button is-primary is-outlined is-medium">Watch the Trailer</button>
             </div>
         </div>
         <div class="container">
@@ -76,30 +79,30 @@
                 <div class="column">
                     <div class="box">
                         <div class="is-size-5 has-text-weight-bold">
-                            box title
+                            Best flights <span class="has-text-primary icon"><i class="fas fa-plane-departure"></i></span>
                         </div>
                         <p>
-                            box text
+                            Arriving to your destination has never been so simple. Our company has many airline partners. Let us find the best flight for your trip.
                         </p>
                     </div>
                 </div>
                 <div class="column">
                     <div class="box">
                         <div class="is-size-5 has-text-weight-bold">
-                            box title
+                            Best guides <span class="icon has-text-primary"><i class="fa fa-map-marked-alt"></i></span>
                         </div>
                         <p>
-                            box text
+                            Our guides are the best! Thanks to our world-class training system, everyone in our company tries to give you the best holiday experience.
                         </p>
                     </div>
                 </div>
                 <div class="column">
                     <div class="box">
                         <div class="is-size-5 has-text-weight-bold">
-                            box title
+                            Best price <span class="icon has-text-primary"><i class="fa fa-piggy-bank"></i></span>
                         </div>
                         <p>
-                            box text
+                            Blue Jay knows that paying too much can make any holiday stressfull. That's why our finance experts make the best moves in advance, so you longer have to think about high travel costs.
                         </p>
                     </div>
                 </div>
@@ -108,47 +111,42 @@
     </section>
 
     <!--Gallery-->
+    <a class="offset-anchor" id="gallery-anchor"></a>
     <section id="gallery">
         <div class="container">
             <div class="level">
                 <div class="level-item">
-                    <h2 class="title is-2">Postcards</h2>
-                </div>
-                <div class="level-item">
-                    <p class="subtitle">
-                        postcards text
-                    </p>
+                    <h2 class="title is-2">Gallery</h2>
                 </div>
             </div>
             <div class="tile is-ancestor">
-
                 <div class="tile is-parent is-4">
-                    <div class="tile is-child box">
-                        <figure class="image is-1by-1">
-                            <img src="http://via.placeholder.com/100x100" />
+                    <div class="tile is-child">
+                        <figure class="image">
+                            <img src="images/1-1penguin.jpg" />
                         </figure>
                     </div>
                 </div>
                 <div class="tile is-parent is-8">
-                    <div class="tile is-child box">
-                        <figure class="image is-2by-1">
-                            <img src="http://via.placeholder.com/200x100" />
+                    <div class="tile is-child">
+                        <figure class="image">
+                            <img src="images/2-1city.jpg" />
                         </figure>
                     </div>
                 </div>
             </div>
             <div class="tile is-ancestor">
                 <div class="tile is-parent is-8">
-                    <div class="tile is-child box">
-                        <figure class="image is-2by-1">
-                            <img src="http://via.placeholder.com/200x100" />
+                    <div class="tile is-child">
+                        <figure class="image">
+                            <img src="images/2-1canoe.jpg" />
                         </figure>
                     </div>
                 </div>
                 <div class="tile is-parent is-4">
-                    <div class="tile is-child box">
-                        <figure class="image is-1by-1">
-                            <img src="http://via.placeholder.com/100x100" />
+                    <div class="tile is-child">
+                        <figure class="image">
+                            <img src="images/1-1prague.jpg" />
                         </figure>
                     </div>
                 </div>
@@ -157,16 +155,17 @@
     <!--Team-->
     <div id="team"></div>
     <!--Destinations-->
+    <a class="offset-anchor" id="destinations-anchor"></a>
     <section id="destinations" class="container">
         <div class="level">
             <div class="level-item">
-                <h2 class="title is-2">Our Destinations</h2>
+                <h2 class="title is-2">Find a Trip</h2>
             </div>
         </div>
         <div class="tabs is-centered">
             <ul>
                 <li id="tab-all" class="is-active">
-                    <a>All Trips</a>
+                    <a>All</a>
                 </li>
                 <li id="tab-cat-1">
                     <a>Children</a>
@@ -230,8 +229,8 @@
                         <span class="icon"><i class="fas fa-lg fa-monument"></i></span> Prague
                     </div>
                     <p>
-                        The city of bridges...and towers. If you want to see how culture meets modern life, come to Prague! The four different districts display the history of Prague, one of the oldest cities in Europe. Our tour includes a short trip to Kutna Hora, where you
-                        will be amazed by the bone church.
+                        The city of bridges...and towers. If you want to see how the old meets the new, come to Prague! The four different districts display the history of Prague, one of the oldest cities in Europe. Our tour includes a short trip to Kutná Hora, where you will
+                        be amazed by the bone church.
                     </p>
                     <a class="link has-text-primary">Learn more</a>
                 </div>
@@ -242,7 +241,7 @@
                         <span class="icon"><i class="fas fa-lg fa-chart-pie"></i></span> Rome
                     </div>
                     <p>
-                        Visit Rome and discover the heart of Italian culture. Our expert guides who are fluent in Italian and English will guide you through the crowded streets. Enjoy some fresh pizza in the evening. You never lose a single minute with Blue Jay. This is our
+                        Visit Rome and discover the heart of Italian culture. Our expert guides, who are fluent in Italian and English will guide you through the crowded streets. Enjoy some fresh pizza in the evening. You never lose a single minute with Blue Jay. This is our
                         best-selling trip.
                     </p>
                     <a class="link has-text-primary">Learn more</a>
@@ -252,6 +251,7 @@
     </section>
 
     <!--Contact-->
+    <a class="offset-anchor" id="contact-anchor"></a>
     <section id="contact">
         <div class="container">
             <h2 class="title is-3 has-text-white">Contact Us</h2>
@@ -275,6 +275,9 @@
                         <span class="icon"><i class="fab fa-lg fa-facebook"></i></span> Blue Jay Travel
                     </p>
                 </div>
+            </div>
+            <div class="content has-text-white">
+                Photos by Ishan @seefromthesky, Linh Nguyen, Freddy Martinez, Torsten Dederichs on Unsplash
             </div>
         </div>
     </section>
