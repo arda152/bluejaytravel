@@ -1,0 +1,12 @@
+.container{padding:10px;}
+.hide{display:none;}
+.icon{position:relative;top:3px;}
+.offset-anchor{display:block;position:relative;top:-52px;}
+#intro .icon{position:relative;left:30px;}
+.navbar-menu a{color:black;}
+.navbar-menu a:hover{color:#00d1b2;}
+#placeholderNav{height:52px;}
+#gallery .box{box-shadow:none;padding:0;}
+#gallery img{border-radius:5px;}
+#contact{background-color:#00d1b2}
+#contact .container{padding-left:20px;}
